@@ -1,44 +1,18 @@
-/*body{*/
-    /*background-image:url('http://thewallpaper.co/wp-content/uploads/2016/03/elegant-grey-illumination-backgroundpresentationspowerpoint-backgrounds-high-resolution-images-free-stock-photos-desktop-images-iphone-wallpaper-colorful-widescreen-hd-artwork-1920x1080.jpg');*/
-    /*!*background-color: bisque;*!*/
-    /*background: aquamarine;*/
-    /*display:-webkit-box;*/
-    /*-webkit-box-pack:center;*/
-    /*background-repeat: repeat-y;*/
-    /*background-position: center;*/
-    /*background-attachment: fixed;*/
-/*}*/
-
-.search-bar {
-    margin: 20px;
+.container{
     text-align: center;
 }
-
-.search-bar input {
-    width: 75%;
+#later{
+    margin-left: 50px;
 }
-
-.video-item img {
-    max-width: 64px;
+.row{
+    margin: 10px;
 }
-
-.video-detail .details {
-    margin-top: 10px;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+#to{
+    margin-left: 60px;
 }
-
-.list-group-item {
-    cursor: pointer;
+.space{
+    margin-left: 10px;
 }
-
-.list-group-item:hover {
-    background-color: #eee;
+#time{
+    margin-left: 50px;
 }
-
-
-
-
-
-
