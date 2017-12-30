@@ -44,7 +44,7 @@ class App extends Component {
         this.setState({msg});
     }
     onSubmit(){
-        fetch("http://127.0.0.1:8000/pflege/post",{
+        fetch('http://127.0.0.1:8000/pflege/',{
             method: "post",
             headers:{
                 "Content-type":"application/x-www-form-urlencoded;"
@@ -55,6 +55,8 @@ class App extends Component {
             .catch(function(error){
                 console.log("request failed ",error);
             });
+
+
     }
     render() {
         return (
